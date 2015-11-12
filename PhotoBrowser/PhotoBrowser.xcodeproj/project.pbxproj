@@ -16,9 +16,14 @@
 		FA432C771BF3321F00634591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA432C751BF3321F00634591 /* LaunchScreen.storyboard */; };
 		FA432C821BF3321F00634591 /* PhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432C811BF3321F00634591 /* PhotoBrowserTests.m */; };
 		FA432C8D1BF3321F00634591 /* PhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432C8C1BF3321F00634591 /* PhotoBrowserUITests.m */; };
-		FA432CB01BF34EB000634591 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CAA1BF34EB000634591 /* SDBrowserImageView.m */; };
-		FA432CB11BF34EB000634591 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CAC1BF34EB000634591 /* SDPhotoBrowser.m */; };
-		FA432CB21BF34EB000634591 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CAF1BF34EB000634591 /* SDWaitingView.m */; };
+		FA432CC11BF4378E00634591 /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CB51BF4378E00634591 /* MJPhoto.m */; };
+		FA432CC21BF4378E00634591 /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA432CB61BF4378E00634591 /* MJPhotoBrowser.bundle */; };
+		FA432CC31BF4378E00634591 /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CB81BF4378E00634591 /* MJPhotoBrowser.m */; };
+		FA432CC41BF4378E00634591 /* MJPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CBA1BF4378E00634591 /* MJPhotoLoadingView.m */; };
+		FA432CC51BF4378E00634591 /* MJPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CBC1BF4378E00634591 /* MJPhotoProgressView.m */; };
+		FA432CC61BF4378E00634591 /* MJPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CBE1BF4378E00634591 /* MJPhotoToolbar.m */; };
+		FA432CC71BF4378E00634591 /* MJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CC01BF4378E00634591 /* MJPhotoView.m */; };
+		FA432CCA1BF4386D00634591 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA432CC91BF4386D00634591 /* SDBrowserImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +63,21 @@
 		FA432C881BF3321F00634591 /* PhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA432C8C1BF3321F00634591 /* PhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserUITests.m; sourceTree = "<group>"; };
 		FA432C8E1BF3321F00634591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA432CA91BF34EB000634591 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
-		FA432CAA1BF34EB000634591 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
-		FA432CAB1BF34EB000634591 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
-		FA432CAC1BF34EB000634591 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
-		FA432CAD1BF34EB000634591 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
-		FA432CAE1BF34EB000634591 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
-		FA432CAF1BF34EB000634591 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		FA432CB41BF4378E00634591 /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhoto.h; sourceTree = "<group>"; };
+		FA432CB51BF4378E00634591 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhoto.m; sourceTree = "<group>"; };
+		FA432CB61BF4378E00634591 /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJPhotoBrowser.bundle; sourceTree = "<group>"; };
+		FA432CB71BF4378E00634591 /* MJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoBrowser.h; sourceTree = "<group>"; };
+		FA432CB81BF4378E00634591 /* MJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoBrowser.m; sourceTree = "<group>"; };
+		FA432CB91BF4378E00634591 /* MJPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoLoadingView.h; sourceTree = "<group>"; };
+		FA432CBA1BF4378E00634591 /* MJPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoLoadingView.m; sourceTree = "<group>"; };
+		FA432CBB1BF4378E00634591 /* MJPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoProgressView.h; sourceTree = "<group>"; };
+		FA432CBC1BF4378E00634591 /* MJPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoProgressView.m; sourceTree = "<group>"; };
+		FA432CBD1BF4378E00634591 /* MJPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoToolbar.h; sourceTree = "<group>"; };
+		FA432CBE1BF4378E00634591 /* MJPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoToolbar.m; sourceTree = "<group>"; };
+		FA432CBF1BF4378E00634591 /* MJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhotoView.h; sourceTree = "<group>"; };
+		FA432CC01BF4378E00634591 /* MJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhotoView.m; sourceTree = "<group>"; };
+		FA432CC81BF4386D00634591 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		FA432CC91BF4386D00634591 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +139,7 @@
 		FA432C661BF3321F00634591 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				FA432CA81BF34EB000634591 /* SDPhotoBrowser */,
+				FA432CB31BF4378E00634591 /* MJPhotoBrowser */,
 				FA432C6A1BF3321F00634591 /* AppDelegate.h */,
 				FA432C6B1BF3321F00634591 /* AppDelegate.m */,
 				FA432C6D1BF3321F00634591 /* ViewController.h */,
@@ -166,18 +179,26 @@
 			path = PhotoBrowserUITests;
 			sourceTree = "<group>";
 		};
-		FA432CA81BF34EB000634591 /* SDPhotoBrowser */ = {
+		FA432CB31BF4378E00634591 /* MJPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				FA432CA91BF34EB000634591 /* SDBrowserImageView.h */,
-				FA432CAA1BF34EB000634591 /* SDBrowserImageView.m */,
-				FA432CAB1BF34EB000634591 /* SDPhotoBrowser.h */,
-				FA432CAC1BF34EB000634591 /* SDPhotoBrowser.m */,
-				FA432CAD1BF34EB000634591 /* SDPhotoBrowserConfig.h */,
-				FA432CAE1BF34EB000634591 /* SDWaitingView.h */,
-				FA432CAF1BF34EB000634591 /* SDWaitingView.m */,
+				FA432CC81BF4386D00634591 /* SDBrowserImageView.h */,
+				FA432CC91BF4386D00634591 /* SDBrowserImageView.m */,
+				FA432CB41BF4378E00634591 /* MJPhoto.h */,
+				FA432CB51BF4378E00634591 /* MJPhoto.m */,
+				FA432CB61BF4378E00634591 /* MJPhotoBrowser.bundle */,
+				FA432CB71BF4378E00634591 /* MJPhotoBrowser.h */,
+				FA432CB81BF4378E00634591 /* MJPhotoBrowser.m */,
+				FA432CB91BF4378E00634591 /* MJPhotoLoadingView.h */,
+				FA432CBA1BF4378E00634591 /* MJPhotoLoadingView.m */,
+				FA432CBB1BF4378E00634591 /* MJPhotoProgressView.h */,
+				FA432CBC1BF4378E00634591 /* MJPhotoProgressView.m */,
+				FA432CBD1BF4378E00634591 /* MJPhotoToolbar.h */,
+				FA432CBE1BF4378E00634591 /* MJPhotoToolbar.m */,
+				FA432CBF1BF4378E00634591 /* MJPhotoView.h */,
+				FA432CC01BF4378E00634591 /* MJPhotoView.m */,
 			);
-			path = SDPhotoBrowser;
+			path = MJPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		FC6BDCE073DE473E973D2B46 /* Pods */ = {
@@ -297,6 +318,7 @@
 			files = (
 				FA432C771BF3321F00634591 /* LaunchScreen.storyboard in Resources */,
 				FA432C741BF3321F00634591 /* Assets.xcassets in Resources */,
+				FA432CC21BF4378E00634591 /* MJPhotoBrowser.bundle in Resources */,
 				FA432C721BF3321F00634591 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,12 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA432CB11BF34EB000634591 /* SDPhotoBrowser.m in Sources */,
-				FA432CB01BF34EB000634591 /* SDBrowserImageView.m in Sources */,
+				FA432CC31BF4378E00634591 /* MJPhotoBrowser.m in Sources */,
+				FA432CC51BF4378E00634591 /* MJPhotoProgressView.m in Sources */,
+				FA432CC41BF4378E00634591 /* MJPhotoLoadingView.m in Sources */,
 				FA432C6F1BF3321F00634591 /* ViewController.m in Sources */,
+				FA432CCA1BF4386D00634591 /* SDBrowserImageView.m in Sources */,
+				FA432CC11BF4378E00634591 /* MJPhoto.m in Sources */,
 				FA432C6C1BF3321F00634591 /* AppDelegate.m in Sources */,
 				FA432C691BF3321F00634591 /* main.m in Sources */,
-				FA432CB21BF34EB000634591 /* SDWaitingView.m in Sources */,
+				FA432CC71BF4378E00634591 /* MJPhotoView.m in Sources */,
+				FA432CC61BF4378E00634591 /* MJPhotoToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alex.PhotoBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alex.PhotoBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
