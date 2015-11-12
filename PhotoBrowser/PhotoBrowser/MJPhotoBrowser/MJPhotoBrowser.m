@@ -139,10 +139,19 @@
     CGRect visibleBounds = _photoScrollView.bounds;
     NSInteger firstIndex = (NSInteger)floorf((CGRectGetMinX(visibleBounds)+kPadding*2) / CGRectGetWidth(visibleBounds));
     NSInteger lastIndex  = (NSInteger)floorf((CGRectGetMaxX(visibleBounds)-kPadding*2-1) / CGRectGetWidth(visibleBounds));
-    if (firstIndex < 0) firstIndex = 0;
-    if (firstIndex >= _photos.count) firstIndex = (NSInteger)_photos.count - 1;
-    if (lastIndex < 0) lastIndex = 0;
-    if (lastIndex >= _photos.count) lastIndex = (NSInteger)_photos.count - 1;
+    
+    if (firstIndex < 0) {
+        firstIndex = 0;
+    }
+    if (firstIndex >= _photos.count){
+        firstIndex = _photos.count - 1;
+    }
+    if (lastIndex < 0){
+        lastIndex = 0;
+    }
+    if (lastIndex >= _photos.count){
+        lastIndex = _photos.count - 1;
+    }
     
     // 回收不再显示的ImageView
     NSInteger photoViewIndex;
